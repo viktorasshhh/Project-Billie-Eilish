@@ -1,0 +1,81 @@
+@media(max-width:760px){
+    .heder{
+        height: 80vh;
+        text-align: center;
+        padding: 20px;
+        background-size: cover;      
+}
+.name1{
+    font-size: 50px;
+}
+.name2{
+    font-size: small;
+}
+.icon{
+ left: 50%;
+ transform: translateX(-50%);
+}
+.contenier{
+    max-width: 80%;
+}
+.contenier-name{
+    font-size: 40px;
+}
+.card{
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+.card:last-child {
+    margin-bottom: 30px; /*убираем нижий отступ у последнего элемента*/
+}
+.card:nth-last-child(2) {
+    margin-bottom: 30px; /*у предспоследнего*/
+ }
+ 
+.cards-wrapp{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-col {
+    max-width: 100%;
+    margin-bottom: 29px;
+    text-align: center; /* Выравнивание текста по центру */
+  }
+
+.footer-col:first-child{
+    margin-bottom: 0;
+}
+
+.footer-icons-row > * + *{
+    margin-left: 35px;
+}
+
+.contenier-card1{
+    flex-direction: column;
+    align-items: center;
+}
+.name-card1{
+    font-size: 60px;
+}
+.foto-card11{
+    width: 340px;
+    height: auto;
+}
+.contenier-list{
+    text-align: center;
+}
+.list{
+    font-size: 40px;
+    margin-left: 0;
+}
+.card-bottom{
+    margin-left: 0;
+}
+}
