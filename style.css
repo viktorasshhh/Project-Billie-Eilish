@@ -50,6 +50,10 @@ margin: 0;
     left: 50%;
 }
 
+.icon:active{
+    background-color: none;
+}
+
 .main{
   background-color: rgb(255, 255, 255);  
    max-width: 100%;
